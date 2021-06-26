@@ -8,7 +8,7 @@ const path = require('path')
 app.use(cors());
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
-    console.log(`Server Works !!! At port ${PORT}`);
+    console.log(`Server Works: ${PORT}`);
 })
 
 app.get('/download', async function(req,res){
