@@ -8,5 +8,5 @@ convertBtn.addEventListener('click', () => {
     })
 });
 function sendURL(URL, FORMAT) {
-    window.location.href = `http://localhost:3000/download?URL=${URL}&FORMAT=${FORMAT}`;
+    window.location.href = `http://myt-downloader.herokuapp.com/download?URL=${URL}&FORMAT=${FORMAT}`;
 }
