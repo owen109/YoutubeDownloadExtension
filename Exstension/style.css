@@ -1,0 +1,62 @@
+*{
+    text-align:center;
+}
+.heading {
+    font-family: Arial;
+    color: white;
+    margin-bottom:30px
+}
+.URL-input, .convert-button {
+    font-size:1.3em;
+    padding:5px 10px;
+}
+.URL-input {
+    border-radius:4px 0px 0px 4px;
+    width:30em;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+}
+.URL-input:focus {
+    border:2px solid #b9001f;
+}
+.convert-button {
+    margin-top: 10px;
+    border-radius:0px 4px 4px 0px;
+    border:2px solid #000000;
+    background: #ececec;
+    color: #000000;
+}
+.convert-button:hover {
+    background: #ffb0b0;
+    border:2px solid #1f1f1f;
+}
+body{
+    background-color: #9c1818;
+    width: 160px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    font-family: "Roboto Thin", "sans serif";
+}
+h1 {
+    margin: 5px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.radio_container{
+    flex-direction:row;
+    display:flex;
+    align-items:center;
+}
+.radio_text{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: bold;
+}
